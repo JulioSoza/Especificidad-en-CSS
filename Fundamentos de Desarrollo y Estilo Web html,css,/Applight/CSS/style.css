@@ -1,0 +1,38 @@
+
+ul.navbar-nav li:hover a {
+	text-decoration: underline;  
+}   
+.banner h2 {
+	font-weight: 200; /* Establecer el grosor del texto a 200 */
+}
+.banner a.weblink {
+	color: red; /* Cambiar el color a rojo */
+}
+.features h3 {
+	color: #8D1EFB; /* Establecer el color #8D1EFB */
+}
+.features h5 {
+	color: #5EE25A; /* Cambiar el color del texto a #5EE25A */
+}
+
+.features h5::before {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #f775b4; /* Cambiar el color del icono a #f775b4 */
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.section-header {
+	border: 1px solid #8D1EFB; /* Agregar borde solid 1px #8D1EFB */
+}
+.our-team .team-member h4 {
+	color: #2E74A7; /* Cambiar el color del texto a #2E74A7 */
+}
+.testimonials .carousel-item .carousel-inner .carousel-item h4 {
+	text-decoration: underline; /* Agregar subrayado al texto */
+}
+.footer .footer-text a {
+	color: #844E41; /* Cambiar el color del texto a #844E41 */
+}
